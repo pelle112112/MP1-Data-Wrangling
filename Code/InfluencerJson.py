@@ -3,7 +3,6 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets, preprocessing, metrics
-import geopandas as gpd
 
 
 # Load the data with a function

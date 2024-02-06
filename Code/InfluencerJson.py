@@ -3,6 +3,7 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets, preprocessing, metrics
+import geopandas as gpd
 
 
 # Load the data with a function
@@ -39,6 +40,27 @@ def preprocessor(df):
 
 newDF = preprocessor(df)
 
+# We have the possibility of removing the MBTI Personality Column, but it says something about the personality traits of the influencers.
+
 printDataframe(newDF)
 
+# Create a visualization of the data. Age as x-axis and the amount of influencers as y-axis
+# First i need to calculate the amount of influencers in each age group
+def ageVisualization(data):
+    age = data['Age']
+    age = age.value_counts()
+    age = age.sort_index()
+    age.plot(kind='bar')
+    plt.show()
+    
+# Visualization of the education level for the influencers
+def educationVisualization(data):
+    education = data['Education Level']
+    education = education.value_counts()
+    education = education.sort_index()
+    education.plot(kind='bar')
+    plt.show()
+    
+ageVisualization(newDF)
+educationVisualization(newDF)
 

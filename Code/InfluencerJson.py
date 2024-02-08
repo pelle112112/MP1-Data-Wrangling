@@ -10,22 +10,18 @@ def loadJson():
     jsonPath = '../Data/influencer_data.jsonl'
     return pd.read_json(jsonPath, lines=True)
 
-
-
 # Print the Dataframe info
 def printDataframe(data):
     print(data)
     print(data.shape)
     print(data.count)
 
-
 df = loadJson()
-
 
 # Check which columns are in the dataframe
 print(df.columns)
 
-# Check for missing data
+# Check for missing data (We didnt find any missing data)
 print(df.isnull().sum())
 
 # anomyzing the data and removing Backstory
@@ -39,11 +35,11 @@ def preprocessor(df):
 
 newDF = preprocessor(df)
 
-# We have the possibility of removing the MBTI Personality Column, but it says something about the personality traits of the influencers.
-
+# We have the possibility of removing the MBTI Personality Column, but it says something about the personality traits of the influencers
+# Printing out the dataframe to check if our function have correctfully processed the data
 printDataframe(newDF)
 
-# Create a visualization of the data. Age as x-axis and the amount of influencers as y-axis
+# Visualization of the data. Age as x-axis and the amount of influencers as y-axis
 # First i need to calculate the amount of influencers in each age group
 def ageVisualization(data):
     age = data['Age']

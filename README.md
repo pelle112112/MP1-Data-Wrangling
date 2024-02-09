@@ -8,10 +8,10 @@ Danyal Kitir - cph-dk174@cphbusiness.dk\
 # Brief description
 
 We are studying data science and have tried solving the following tasks:
-1. Choose minimum three of the source data formats, displayed by icons above, feel free to add others.
+1. Choose minimum three of the source data formats, displayed by icons above, feel free to add others.\
     We have chosen: json, excel, csv and txt. The data sets can be found in the Data folder. 
 
-2. Write Python functions for loading data from each of the selected external types of sources into a Python data structure.
+2. Write Python functions for loading data from each of the selected external types of sources into a Python data structure.\
     The implemented functions for the following tasks can be found within the accordingly named files, within the Code folder.
 
 3. Implement the functions for collecting data.
@@ -22,5 +22,5 @@ We are studying data science and have tried solving the following tasks:
 
 6. Apply visualisation. 
 
-7. Store the code with the visuals and brief explanation. 
+7. Store the code with the visuals and brief explanation.\ 
     The visualisation can found within the Data folder, and explanations is commented within the individual code files. 

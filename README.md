@@ -1,9 +1,9 @@
 # Mini-Project 1 Data Wrangling
 
-Carsten Juhl - cph-cj505@cphbusiness.dk
-Nicolai Rosendahl - cph-nr135@cphbusiness.dk
-Pelle Hald Vedsmand - cph-pv73@cphbusiness.dk
-Danyal Kitir - cph-dk174@cphbusiness.dk
+Carsten Juhl - cph-cj505@cphbusiness.dk\
+Nicolai Rosendahl - cph-nr135@cphbusiness.dk\
+Pelle Hald Vedsmand - cph-pv73@cphbusiness.dk\
+Danyal Kitir - cph-dk174@cphbusiness.dk\
 
 # Brief description
 
